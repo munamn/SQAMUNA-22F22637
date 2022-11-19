@@ -1,0 +1,51 @@
+class f
+
+{
+
+               String name;
+
+               double bill1,bill2,avg;
+
+               void assign()
+
+               {
+
+               name="Adam";
+
+               bill1=10;
+
+               bill2=30;
+
+               avg         =0;
+
+               }
+
+               void calavg()
+
+               {
+
+      avg= (bill1+bill2)/2;
+
+      System.out.println(avg);
+
+               }
+
+}
+
+class main
+
+{
+
+               public static void main(String args[])
+
+               {
+
+                              f q=new f();
+
+                              q.assign();
+
+                              q.calavg();
+
+               }
+
+}
